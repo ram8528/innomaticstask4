@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Soft off-white background */
+}
+
+/* Header */
+header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #ffffff; /* Clean white background for navbar */
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333; /* Dark grey for text */
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff6b6b; /* Coral red for hover effect */
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ff6b6b; /* Coral red for headings */
+}
+
+.bg-light {
+    background-color: #e0e7ff !important; /* Light blue for sections */
+}
+
+.py-5 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* Features */
+.feature {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for features */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 107, 107, 0.2); /* Soft shadow on hover */
+}
+
+/* Services */
+.service-icon {
+    font-size: 40px;
+    color: #20c997; /* Bright green for service icons */
+    margin-bottom: 15px;
+}
+
+/* Testimonials */
+blockquote {
+    background: #ffffff; /* White background for testimonials */
+    border-left: 5px solid #ff6b6b; /* Coral left border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/* Contact Form */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #ff6b6b; /* Coral on focus */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+.btn-primary {
+    background-color: #ff6b6b; /* Coral red */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3d3d; /* Darker coral on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark grey for footer */
+    color: #f8f9fa; /* Light text for contrast */
+}
+
+footer .social-icon img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .feature {
+        margin-bottom: 20px;
+    }
+
+    .service-icon {
+        font-size: 30px;
+    }
+}
